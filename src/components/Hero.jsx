@@ -1,25 +1,28 @@
+import heroDesktop from "../assets/coffee_desktop.jpg";
+import heroMobile from "../assets/coffee_mobile.jpg";
+
 export default function Hero() {
   return (
-    <section className="relative w-full bg-neutral-100">
-      {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1523430410476-0185cb1f6ff9')",
-        }}
-      />
+    <section className="relative w-full min-h-screen overflow-hidden">
+      <picture className="absolute inset-0">
+        <source srcSet={heroDesktop} media="(min-width: 768px)" />
+        <img
+          src={heroMobile}
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </picture>
       {/* Soft overlay */}
-      <div className="absolute inset-0 bg-white/70" />
+      <div className="absolute inset-0 bg-white/80" />
 
       {/* Content */}
       <div className="relative max-w-5xl mx-auto px-6 py-32 text-center">
         <h1 className="font-serif text-5xl md:text-6xl tracking-wide mb-6">
-          Ankan & Berit
+          Ebba & Gustaf
         </h1>
 
         <p className="text-lg md:text-xl text-neutral-700 mb-10">
-          We’re getting married — and we can’t wait to celebrate with you.
+          Vi ska äntligen gifta oss och längtar efter att få fira med er!
         </p>
 
         <p className="uppercase tracking-widest text-sm text-neutral-600">
