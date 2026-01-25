@@ -36,7 +36,7 @@ export default function Schedule() {
               Lördagen är dagen D - Cermoni följt av firande ända in på småtimmarna.
               Mer detaljerad information hittar du på sidan för {" "}
               <Link
-                to="/schedule/saturday"
+                to="/saturday"
                 className="underline underline-offset-4 hover:text-neutral-800 transition"
               >
                 Lördag
