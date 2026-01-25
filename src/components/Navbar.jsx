@@ -12,7 +12,7 @@ export default function Navbar() {
           <Link to="/schedule" className="hover:text-neutral-500">Upplägg</Link>
           <Link to="/friday" className="hover:text-neutral-500">Fredag</Link>
           <Link to="/saturday" className="hover:text-neutral-500">Lördag</Link>
-          <Link to="/rsvp" className="hover:text-neutral-500">RSVP</Link>
+          <Link to="/rsvp" className="hover:text-neutral-500">OSA</Link>
         </div>
       </div>
     </nav>
