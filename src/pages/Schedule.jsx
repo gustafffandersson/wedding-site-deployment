@@ -23,7 +23,13 @@ export default function Schedule() {
             <p className="text-neutral-600 leading-relaxed">
               Vi kickstartar helgen med en avslappnad pizzakväll. Ett informellt
               sätt för oss att spendera tid tillsammans. Tema för kvällen är
-              Italiensk afton. 
+              Italiensk afton. Mer info här: {" "}
+              <Link
+                to="/friday"
+                className="underline underline-offset-4 hover:text-neutral-800 transition"
+              >
+                Fredag
+              </Link>
             </p>
           </div>
 
@@ -50,7 +56,7 @@ export default function Schedule() {
         <div className="mt-12 border-t pt-6 text-neutral-600 text-sm leading-relaxed">
           <p>
             Det kommer att gå bussar mellan kyrkan och festen som också tar dig tillbaka
-            till Uppsala under kvällen.
+            till Uppsala under kvällen. 
           </p>
         </div>
       </div>
