@@ -7,7 +7,7 @@ import Friday from "./pages/Friday";
 import Saturday from "./pages/Saturday";
 import RSVP from "./pages/RSVP";
 import Dresscode from "./pages/Dresscode";
-import FAQ from "./pages/FAQ";
+import Info from "./pages/Info";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/saturday" element={<Saturday />} />
           <Route path="/rsvp" element={<RSVP />} />
           <Route path="/dresscode" element={<Dresscode />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/info" element={<Info />} />
         </Routes>
       </main>
 

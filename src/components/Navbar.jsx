@@ -24,6 +24,9 @@ export default function Navbar() {
             <Link to="/rsvp" className="hover:text-neutral-500">
               OSA
             </Link>
+            <Link to="/info" className="hover:text-neutral-500">
+              Info
+            </Link>
           </div>
         </div>
 
@@ -45,6 +48,9 @@ export default function Navbar() {
             </Link>
             <Link to="/rsvp" className="hover:text-neutral-500">
               OSA
+            </Link>
+            <Link to="/info" className="hover:text-neutral-500">
+              Info
             </Link>
           </div>
         </div>
