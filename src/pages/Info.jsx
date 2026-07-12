@@ -20,7 +20,7 @@ export default function Info() {
       <>
         Om ni behöver boende i Uppsala, rekommenderar vi att ni bokar Scandic Uplandia ({" "}
         
-        <a  href="https://example.com/busstider"
+        <a  href="https://www.scandichotels.com/sv/hotell/scandic-uplandia"
           className="font-semibold text-neutral-800 underline underline-offset-2 decoration-neutral-400 hover:decoration-neutral-800 transition"
         >
           Scandic Uplandia
@@ -32,7 +32,7 @@ export default function Info() {
   },
     {
       title: "Kontakt",
-      body: "Har ni frågor? Hör av er! \nGustaf: 073 575 38 38 \nToastmasters: ebbaochgustafstoastar@gmail.com \nEbba & Gustaf: ebbaochgustafbrollop@gmail.com",
+      body: "Har ni frågor? Hör av er! \nGustaf: 073-575 38 38 \nToastmasters: ebbaochgustafstoastar@gmail.com \nEbba & Gustaf: ebbaochgustafbrollop@gmail.com",
     },
   ];
 
