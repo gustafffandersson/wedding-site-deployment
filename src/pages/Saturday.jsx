@@ -15,8 +15,13 @@ export default function Saturday() {
       text: "Middagen serveras kl. 18.00 och följs av tal, skratt och dans långt in på natten.",
     },
     {
+      time: "00.00",
+      title: "Första bussen hem",
+      text: "Det kommer att gå en buss tillbaka till Uppsala för den som dansat klart.",
+    },
+    {
       time: "02.00",
-      title: "Hemresa",
+      title: "Hemresa för resten",
       text: "Bussar tillbaka till Uppsala går i två omgångar under natten. Sista bussen avgår kl. 02.00.",
     },
   ];
@@ -105,10 +110,10 @@ export default function Saturday() {
           <p className="text-neutral-700 leading-relaxed">
             Vill du hålla tal under middagen? Kontakta vår toast på{" "}
             <a
-              href="mailto:ebbaochgustafbrollop@gmail.com"
+              href="mailto:ebbaochgustafstoastar@gmail.com"
               className="underline hover:text-neutral-500 transition-colors"
             >
-              ebbaochgustafbrollop@gmail.com
+              ebbaochgustafstoastar@gmail.com
             </a>.
           </p>
         </div>
