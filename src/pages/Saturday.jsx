@@ -85,20 +85,6 @@ export default function Saturday() {
                 för herrar.
               </p>
             </div>
-
-            {/* Images */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-[3/4] bg-neutral-200 rounded-xl overflow-hidden">
-                {/* Replace with image */}
-                {/* <img src={dress1} alt="Mörk kostym inspiration" className="w-full h-full object-cover" /> */}
-              </div>
-
-              <div className="aspect-[3/4] bg-neutral-200 rounded-xl overflow-hidden">
-                {/* Replace with image */}
-                {/* <img src={dress2} alt="Smoking inspiration" className="w-full h-full object-cover" /> */}
-              </div>
-            </div>
-
           </div>
         </div>
 

@@ -34,7 +34,7 @@ export default function Friday() {
             <div className="relative pl-12">
               <div className="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-white border-2 border-neutral-400" />
               <h3 className="font-serif text-xl mb-2">
-                [HEMLIG PLATS] · Uppsala · 17:00
+                [HEMLIG PLATS] · Uppsala · 18:00
               </h3>
               <p className="text-neutral-700 leading-relaxed">
                 Vi samlas på [HEMLIG PLATS] för en kväll fylld av pizza, spritzar, och

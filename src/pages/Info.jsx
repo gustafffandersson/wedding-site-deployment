@@ -1,4 +1,4 @@
-import coffeesDesktop from "../assets/coffees_desktop.jpg";
+import orbyMap from "../assets/orby_map.jpg";
 
 export default function Info() {
   const items = [
@@ -12,7 +12,7 @@ export default function Info() {
     },
     {
       title: "Klädkod",
-      body: "Fredag: Udda kavaj, gärna färgglatt. \nLördag: Mörk kostym. ",
+      body: "Fredag: Udda kavaj, gärna färgglatt. \nLördag: Mörk kostym. \nSe flikarna för varje enskild dag för inspiration.",
     },
     {
     title: "Boende",
@@ -29,17 +29,15 @@ export default function Info() {
         Vill ni lösa boende själva går det såklart också bra.
       </>
     ),
-  },
+    },
+    {
+      title: "Present",
+      body: "Om du skulle vilja ta med dig en present, önskar vi oss upplevelser (exempelvis ett spännande restaurangbesök, caviarprovning, eller övernattning) och inredning från Svenskt Tenn.",
+    },
     {
       title: "Kontakt",
       body: "Har ni frågor? Hör av er! \nGustaf: 073-575 38 38 \nToastmasters: ebbaochgustafstoastar@gmail.com \nEbba & Gustaf: ebbaochgustafbrollop@gmail.com",
     },
-  ];
-
-  const images = [
-    { src: coffeesDesktop, alt: "Karta Fredag" },
-    { src: coffeesDesktop, alt: "Karta kyrka" },
-    { src: coffeesDesktop, alt: "Karta Örbyhus slott" },
   ];
 
   return (
@@ -59,16 +57,19 @@ export default function Info() {
           </div>
         ))}
       </div>
+      
+      <div className="mt-16 pt-16 border-t border-neutral-200">
+        <p className="text-neutral-600 mb-2">
+          Vill du ta egen bil till Örbyhus slott, parkerar du enklast i allén enligt bilden nedan.
+        </p>
 
-      <div className="mt-20 grid grid-cols-2 sm:grid-cols-3 gap-4">
-        {images.map((img) => (
+        <div className="mb-12 overflow-hidden rounded-2xl">
           <img
-            key={img.src}
-            src={img.src}
-            alt={img.alt}
-            className="w-full aspect-square object-cover rounded-md"
+            src={orbyMap}
+            alt="Karta Örbyhus slott parkering"
+            className="w-full aspect-[3/2] object-cover"
           />
-        ))}
+        </div>
       </div>
     </section>
   );

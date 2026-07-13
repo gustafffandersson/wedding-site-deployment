@@ -11,7 +11,7 @@ import Info from "./pages/Info";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-neutral-50">
+    <div className="min-h-screen flex flex-col bg-white">
       <Navbar />
 
       <main className="flex-grow">
