@@ -3,8 +3,12 @@ import orbyMap from "../assets/orby_map.jpg";
 export default function Info() {
   const items = [
     {
+      title: "Barnfritt",
+      body: "Vi har valt att fira bröllopet barnfritt. Ammande barn är undantagna. Tack för förståelse!",
+    },
+    {
       title: "Transport",
-      body: "Vi räknar med att ni tar er till Uppsala själva. Efter Ceremonin i Helga Trefaldighets kyrka, har vi chartrat bussar som tar oss till festlokalen. Det kommer sedan att gå bussar tillbaka till Uppsala (Scandic Uplandia & Villa Anna) klockan 12 och 02 under kvällen.",
+      body: "Vi räknar med att ni tar er till Uppsala själva. Efter Ceremonin i Helga Trefaldighets kyrka, har vi chartrat bussar som tar oss till festlokalen. Det kommer sedan att gå bussar tillbaka till Uppsala (Scandic Uplandia & Villa Anna) klockan 00 och 02 under kvällen.",
     },
     {
       title: "Parkering",
@@ -12,7 +16,7 @@ export default function Info() {
     },
     {
       title: "Klädkod",
-      body: "Fredag: Udda kavaj, gärna färgglatt. \nLördag: Mörk kostym. \nSe flikarna för varje enskild dag för inspiration.",
+      body: "Fredag: Färgsprakande Italien. \nLördag: Mörk kostym. \nSe sidaorna för varje enskild dag för inspiration.",
     },
     {
     title: "Boende",
@@ -32,7 +36,7 @@ export default function Info() {
     },
     {
       title: "Present",
-      body: "Om du skulle vilja ta med dig en present, önskar vi oss upplevelser (exempelvis ett spännande restaurangbesök, caviarprovning, eller övernattning) och inredning från Svenskt Tenn.",
+      body: "Om du skulle vilja ta med dig en present, önskar vi oss upplevelser (exempelvis ett exlusivt restaurangbesök, caviarprovning, eller övernattning) och inredning från Svenskt Tenn.",
     },
     {
       title: "Kontakt",
@@ -44,7 +48,7 @@ export default function Info() {
     <section className="max-w-3xl mx-auto py-20 px-6">
       <h2 className="font-serif text-3xl mb-6">Information</h2>
       <p className="text-neutral-600 mb-12">
-        Här är lite praktisk information inför dagen.
+        Här är lite praktisk information inför helgen.
       </p>
 
       <div className="grid sm:grid-cols-2 gap-x-10 gap-y-10">

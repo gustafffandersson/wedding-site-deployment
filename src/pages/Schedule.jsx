@@ -9,7 +9,7 @@ export default function Schedule() {
         </h2>
 
         <p className="text-neutral-700 mb-12 leading-relaxed">
-          Vi firar hela helgen - från en avslappnad pizzakväll med italenskt tema
+          Vi firar hela helgen - från en avslappnad pizzakväll med italienskt tema
           på fredagen till bröllopet på lördagen. Du är varmt välkommen att delta 
           och vi hoppas att du vill vara med hela helgen.
         </p>
@@ -18,7 +18,7 @@ export default function Schedule() {
           {/* Friday */}
           <div>
             <h3 className="font-serif text-2xl mb-2">
-              Fredag · Pizza Night
+              Fredag · Italian Pizza Night
             </h3>
             <p className="text-neutral-600 leading-relaxed">
               Vi kickstartar helgen med en avslappnad pizzakväll. Ett informellt

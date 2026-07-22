@@ -1,3 +1,5 @@
+import dag2 from "../assets/Dag2.jpg";
+
 export default function Saturday() {
   const events = [
     {
@@ -10,28 +12,47 @@ export default function Saturday() {
       text: "Chartrade bussar avgår direkt efter vigseln och tar oss till Örbyhus slott där kvällens firande fortsätter.",
     },
     {
-      time: "18.00",
+      title: "Mingel",
+      text: "Bubbel och tårta serveras ute i Örbyhus slotts trädgård.",
+    },
+    {
+      time: "17.30",
       title: "Middag & Fest",
-      text: "Middagen serveras kl. 18.00 och följs av tal, skratt och dans långt in på natten.",
+      text: "Middagen serveras och följs av tal, skratt och dans långt in på natten.",
     },
     {
       time: "00.00",
       title: "Första bussen hem",
-      text: "Det kommer att gå en buss tillbaka till Uppsala för den som dansat klart.",
+      text: "Bussar tillbaka till Uppsala går i två omgångar under natten. Det kommer att gå en tidigare buss tillbaka till Uppsala kl 00 för den som dansat klart. Bussen stannar utanför Scandic Uplandia samt Villa Anna.",
     },
     {
       time: "02.00",
       title: "Hemresa för resten",
-      text: "Bussar tillbaka till Uppsala går i två omgångar under natten. Sista bussen avgår kl. 02.00.",
+      text: "Sista bussen avgår kl. 02.00. Bussarna stannar utanför Scandic Uplandia samt Villa Anna.",
     },
   ];
 
   return (
-    <section className="w-full py-24 bg-neutral-50">
+    <section className="w-full py-12 bg-white">
       <div className="max-w-3xl mx-auto px-6">
-        <h2 className="font-serif text-3xl mb-16">
-          Lördag · Bröllopsdagen
-        </h2>
+
+        <div className="mb-12 overflow-hidden rounded-2xl">
+          <img
+            src={dag2}
+            alt="Fredag pizzakväll"
+            className="w-full aspect-[5/4] object-cover"
+          />
+        </div>
+
+        <div className="mb-16 text-center">
+          <p className="text-sm tracking-[0.3em] uppercase text-neutral-500 mb-3">
+            Lördag
+          </p>
+          <h2 className="font-serif text-4xl sm:text-5xl mb-6">
+            Bröllopsdagen
+          </h2>
+          <div className="w-16 h-px bg-neutral-400 mx-auto" />
+        </div>
 
         <div className="relative">
           {/* Vertical line */}

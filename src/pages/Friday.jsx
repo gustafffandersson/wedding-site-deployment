@@ -55,16 +55,11 @@ export default function Friday() {
             {/* Theme */}
             <div className="relative pl-12">
               <h3 className="font-serif text-xl mb-2">
-                Tema · Färgsprakande Italien
+                Dresscode · Färgsprakande Italien
               </h3>
               <p className="text-neutral-700 leading-relaxed">
-                Dresscode:
-                <a href="https://www.careofcarl.se/sv/carlmagazine/stiltips/kladkoden-udda-kavaj.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                 &nbsp;Udda kavaj<br />
-                </a>
+                Tänk en kväll på en italiensk piazza. Linnekostymer, udda kavaj eller ljus kostym för herrar. Eleganta sommarklänningar eller andra festliga sommaroutfits för damer.
+                
 
                 Vi uppmuntrar till en färgstark och somrig klädsel i italiensk anda.
                 Tänk livfulla färger, mönster och en avslappnad elegans. Se bilder ovan för inspiration.

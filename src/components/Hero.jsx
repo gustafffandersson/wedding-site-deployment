@@ -26,7 +26,7 @@ export default function Hero() {
         </p>
 
         <p className="uppercase tracking-widest text-sm text-neutral-600">
-          11-13 Juni, 2027 • Uppsala
+          11-12 Juni, 2027 • Uppsala
         </p>
       </div>
     </section>
