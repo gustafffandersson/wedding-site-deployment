@@ -1,5 +1,5 @@
-import heroDesktop from "../assets/coffees_desktop.jpg";
-import heroMobile from "../assets/coffees_mobile.jpg";
+import heroDesktop from "../assets/berg_desktop.jpg";
+import heroMobile from "../assets/berg_mobile.jpg";
 
 export default function Hero() {
   return (
