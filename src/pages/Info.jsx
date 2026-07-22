@@ -36,7 +36,7 @@ export default function Info() {
     },
     {
       title: "Present",
-      body: "Om du skulle vilja ta med dig en present, önskar vi oss upplevelser (exempelvis ett exlusivt restaurangbesök, caviarprovning, eller övernattning) och inredning från Svenskt Tenn.",
+      body: "Er närvaro är den finaste gåvan. Om ni ändå vill uppmärksamma vår dag önskar vi oss minnen för livet i form av upplevelser. Vi uppskattar särskilt gastronomiska upplevelser, fine dining, vin- och champagneprovningar, exklusiva restaurangbesök, spaupplevelser, weekendresor och andra upplevelser med lite extra guldkant. \n \nOm ni hellre vill ge något att ta med hem uppskattar vi tidlös inredning av hög kvalitet, särskilt från Svenskt Tenn.",
     },
     {
       title: "Kontakt",
