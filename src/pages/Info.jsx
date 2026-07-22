@@ -12,7 +12,7 @@ export default function Info() {
     },
     {
       title: "Parkering",
-      body: "I Uppsala finns gatuparkeringar, parkeringsgarage, och parkering i samband med hotell. Vill man åka egen bil till festlokalen kan man parkera i allén (se karta över Örbyhus slott).",
+      body: "I Uppsala finns gatuparkeringar, parkeringsgarage, och parkering i samband med hotell. Vill man åka egen bil till festlokalen kan man parkera i allén (se karta över Örbyhus slott nedan).",
     },
     {
       title: "Klädkod",
