@@ -2,7 +2,7 @@ import dag1 from "../assets/Dag1.jpg";
 
 export default function Friday() {
   return (
-    <section className="w-full py-24 bg-white">
+    <section className="w-full py-12 bg-white">
       <div className="max-w-3xl mx-auto px-6">
 
         <div className="mb-12 overflow-hidden rounded-2xl">

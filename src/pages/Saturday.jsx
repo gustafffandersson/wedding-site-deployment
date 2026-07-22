@@ -97,13 +97,11 @@ export default function Saturday() {
             {/* Text */}
             <div>
               <p className="text-neutral-700 leading-relaxed mb-4">
-                Mörk kostym. För den som önskar är smoking varmt välkommet.
+                <strong> Mörk kostym</strong> 
               </p>
 
               <p className="text-neutral-600 text-sm leading-relaxed">
-                Tänk klassiskt, elegant och festligt. Lång klänning eller
-                knälång festklänning för damer, mörk kostym eller smoking
-                för herrar.
+                Vi ser gärna en elegant och uppklädd stil. För herrar går traditionell mörk kostym utmärkt, men även kostymer i mörkare nyanser av exempelvis marinblått, skogsgrönt eller brunt är varmt välkomna.
               </p>
             </div>
           </div>

@@ -46,11 +46,11 @@ export default function Navbar() {
             <Link to="/saturday" className="hover:text-neutral-500">
               Lördag
             </Link>
-            <Link to="/rsvp" className="hover:text-neutral-500">
-              OSA
-            </Link>
             <Link to="/info" className="hover:text-neutral-500">
               Info
+            </Link>
+            <Link to="/rsvp" className="hover:text-neutral-500">
+              OSA
             </Link>
           </div>
         </div>
