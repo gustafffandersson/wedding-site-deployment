@@ -16,7 +16,7 @@ export default function Info() {
     },
     {
       title: "Klädkod",
-      body: "Fredag: Färgsprakande Italien. \nLördag: Mörk kostym. \nSe sidaorna för varje enskild dag för inspiration.",
+      body: "Fredag: Färgsprakande Italien. \nLördag: Mörk kostym. \nSe sidorna för varje enskild dag för inspiration.",
     },
     {
     title: "Boende",
