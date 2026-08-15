@@ -101,7 +101,7 @@ export default function Saturday() {
               </p>
 
               <p className="text-neutral-600 text-sm leading-relaxed">
-                Vi ser gärna en elegant och uppklädd stil. För herrar går traditionell mörk kostym utmärkt, men även kostymer i mörkare nyanser av exempelvis marinblått, skogsgrönt eller brunt är varmt välkomna.
+                Vi ser gärna en elegant och uppklädd stil. För herrar går traditionell mörk kostym utmärkt, men även kostymer i mörkare nyanser av exempelvis marinblått, skogsgrönt eller brunt är varmt välkomna. För damer går alla färger (utom vitt) bra!
               </p>
             </div>
           </div>
