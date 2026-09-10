@@ -51,14 +51,6 @@ export default function Schedule() {
             </p>
           </div>
         </div>
-
-        {/* Transport note */}
-        <div className="mt-12 border-t pt-6 text-neutral-600 text-sm leading-relaxed">
-          <p>
-            Det kommer att gå bussar mellan kyrkan och festen som också tar dig tillbaka
-            till Uppsala under kvällen. 
-          </p>
-        </div>
       </div>
     </section>
   );
